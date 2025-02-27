@@ -1,6 +1,6 @@
 # Relational Neurosymbolic Markov Models (NeSy-MMs)
 
-This repository contains the code for the paper "Relational Neurosymbolic Markov Models".
+This repository contains the code for the paper _Relational Neurosymbolic Markov Models_ [[arXiv](https://arxiv.org/abs/2412.13023)].
 
 ## Installation
 
