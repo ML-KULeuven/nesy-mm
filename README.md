@@ -4,10 +4,19 @@ This repository contains the code for the paper _Relational Neurosymbolic Markov
 
 ## Installation
 
-To install the required packages, run the following command:
+To install the required packages, we advise using `uv`, the modern, Rust-based Python package manager.
+To install `uv`, use
 
 ```bash
-pip install -r requirements.txt
+wget -qO- https://astral.sh/uv/install.sh | sh
+```
+
+Next, use `uv` to create a virtual environment and install the dependencies with
+
+```bash
+uv venv --python 3.10
+source .venv/bin/activate
+uv pip install -r requirements.txt
 ```
 
 ## Usage
